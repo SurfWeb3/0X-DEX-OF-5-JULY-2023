@@ -1,8 +1,7 @@
-# Hardhat Boilerplate
+# 0xProject
 
-This repository contains a sample project that you can use as the starting point
-for your Ethereum project. It's also a great fit for learning the basics of
-smart contract development.
+This is a 0x project, it will be used to help user transfer ERC20 token or other homogenous token(ERC721). 
+now this is total initalization version, v0.0.1. we plan complement the project ASAP.
 
 This project is intended to be used with the
 [Hardhat Beginners Tutorial](https://hardhat.org/tutorial), but you should be
@@ -58,33 +57,14 @@ You can find detailed instructions on using this repository and many tips in [it
 For a complete introduction to Hardhat, refer to [this guide](https://hardhat.org/getting-started/#overview).
 
 ## What's Included?
+Frontend: frontend file included interface. the ui plugin we choose material ui, hope u like it. bro
+Test: test file, use hardhat syntax to test contracts
+Contracts: base contract, future we can use api interact with 0x.
+That's all, hope u enjoy coding travel. i'll back ASAP.
 
-This repository uses our recommended hardhat setup, by using our [`@nomicfoundation/hardhat-toolbox`](https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-toolbox). When you use this plugin, you'll be able to:
-
-- Deploy and interact with your contracts using [ethers.js](https://docs.ethers.io/v5/) and the [`hardhat-ethers`](https://hardhat.org/hardhat-runner/plugins/nomiclabs-hardhat-ethers) plugin.
-- Test your contracts with [Mocha](https://mochajs.org/), [Chai](https://chaijs.com/) and our own [Hardhat Chai Matchers](https://hardhat.org/hardhat-chai-matchers) plugin.
-- Interact with Hardhat Network with our [Hardhat Network Helpers](https://hardhat.org/hardhat-network-helpers).
-- Verify the source code of your contracts with the [hardhat-etherscan](https://hardhat.org/hardhat-runner/plugins/nomiclabs-hardhat-etherscan) plugin.
-- Get metrics on the gas used by your contracts with the [hardhat-gas-reporter](https://github.com/cgewecke/hardhat-gas-reporter) plugin.
-- Measure your tests coverage with [solidity-coverage](https://github.com/sc-forks/solidity-coverage).
-
-This project also includes [a sample frontend/Dapp](./frontend), which uses [Create React App](https://github.com/facebook/create-react-app).
-
-## Troubleshooting
-
-- `Invalid nonce` errors: if you are seeing this error on the `npx hardhat node`
-  console, try resetting your Metamask account. This will reset the account's
-  transaction history and also the nonce. Open Metamask, click on your account
-  followed by `Settings > Advanced > Clear activity tab data`.
 
 ## Setting up your editor
 
 [Hardhat for Visual Studio Code](https://hardhat.org/hardhat-vscode) is the official Hardhat extension that adds advanced support for Solidity to VSCode. If you use Visual Studio Code, give it a try!
 
-## Getting help and updates
 
-If you need help with this project, or with Hardhat in general, please read [this guide](https://hardhat.org/hardhat-runner/docs/guides/getting-help) to learn where and how to get it.
-
-For the latest news about Hardhat, [follow us on Twitter](https://twitter.com/HardhatHQ), and don't forget to star [our GitHub repository](https://github.com/NomicFoundation/hardhat)!
-
-**Happy _building_!**
